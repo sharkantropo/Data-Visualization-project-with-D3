@@ -1,0 +1,100 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
+html, body, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*===============Dimensions adjustment==========================*/
+/* line 53, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
+body {
+  background-color: #dff0d8;
+  padding-top: 5vh;
+  padding-right: 5vw;
+  padding-left: 5vw;
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+/* line 63, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
+#title {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* line 69, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
+svg {
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+/* line 77, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
+#tooltip {
+  position: absolute;
+  width: 200px;
+  text-align: center;
+  border: solid black 1px;
+}
+
+/* line 85, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
+.bar:hover {
+  stroke: #b3ff99;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=../style.map */
