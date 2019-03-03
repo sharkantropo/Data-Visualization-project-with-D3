@@ -48,33 +48,42 @@ table {
 }
 
 /*===============Dimensions adjustment==========================*/
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
 body
 {
-	background-color: gray;
+	background-color: #dff0d8;
 	padding-top: 5vh;
-	padding-bottom: 5vh;
 	padding-right:5vw;
 	padding-left:5vw;
-	height:90vh;
-}
-
-#bar-box
-{
-	background-color: white;
-	height: 100%;
-	width: 90vw;
+	font: 100% $font-stack;
+	color: $primary-color;
 }
 
 #title
 {
 	text-align: center;
+	font-weight: bold;
 }
 
 svg
 {
 	display: block;
-	width: 95%;
-	height: 90%;
 	margin: 0 auto;
-	border: solid 2px black;
+	padding: 5px;
+}
+
+
+#tooltip
+{
+	position: absolute;
+	width: 200px;
+	text-align: center;
+	border: solid black 1px;
+}
+
+.bar:hover
+{
+	stroke: #b3ff99;
+    cursor: pointer;
 }

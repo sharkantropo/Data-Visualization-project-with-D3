@@ -60,35 +60,41 @@ table {
 }
 
 /*===============Dimensions adjustment==========================*/
-/* line 51, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
+/* line 53, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
 body {
-  background-color: gray;
+  background-color: #dff0d8;
   padding-top: 5vh;
-  padding-bottom: 5vh;
   padding-right: 5vw;
   padding-left: 5vw;
-  height: 90vh;
+  font: 100% Helvetica, sans-serif;
+  color: #333;
 }
 
-/* line 61, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
-#bar-box {
-  background-color: white;
-  height: 100%;
-  width: 90vw;
-}
-
-/* line 68, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
+/* line 63, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
 #title {
   text-align: center;
+  font-weight: bold;
 }
 
-/* line 73, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
+/* line 69, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
 svg {
   display: block;
-  width: 95%;
-  height: 90%;
   margin: 0 auto;
-  border: solid 2px black;
+  padding: 5px;
+}
+
+/* line 77, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
+#tooltip {
+  position: absolute;
+  width: 200px;
+  text-align: center;
+  border: solid black 1px;
+}
+
+/* line 85, C:/Users/Administrator/Documents/Javascript/Data-Visualization-project-with-D3/Bar Chart D3/scss/style.scss */
+.bar:hover {
+  stroke: #b3ff99;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=../style.map */
