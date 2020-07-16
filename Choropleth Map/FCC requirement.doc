@@ -10,6 +10,8 @@ User Story #9: There should be at least 4 different fill colors used for the leg
 User Story #10: I can mouse over an area and see a tooltip with a corresponding id="tooltip" which displays more information about the area.
 User Story #11: My tooltip should have a data-education property that corresponds to the data-education of the active area.
 Here are the datasets you will need to complete this project:
-US Education Data: https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json
-US County Data: https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json
+US Education Data: 
+https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json
+US County Data: 
+https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json
 

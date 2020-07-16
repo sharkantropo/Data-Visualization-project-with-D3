@@ -5,14 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Choropleth Map</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script async src="js/main.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
 </head>
 <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 	<script src="https://d3js.org/d3.v5.min.js"></script>
-	 <div id="bar-box">
-			<div id="title">US education and county Choropleth Map</div>
-	 </div>
+	<script src="https://d3js.org/topojson.v2.min.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+	
+	<div id="bar-box">
+			<div id="title">US Education Attainment by County</div>
+			<div id='description'>Percentage of adults age 25 and older with a bachelor's degree or higher (2010-2014)</div>
+			<svg width="960" height="600"></svg>
+			<div id='source'>Source: <a href='https://www.ers.usda.gov/data-products/county-level-data-sets/download-data.aspx'>USDA Economic Research Service</a></div>
+	</div>
 </body>
 </html>

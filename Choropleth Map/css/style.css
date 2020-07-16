@@ -1,0 +1,59 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Arial';
+}
+
+
+#title {
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+  text-decoration-line: underline overline;
+}
+
+svg{
+	padding-top: 45px;
+}
+.counties {
+  fill: none;
+}
+
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+a {
+  text-decoration: none;
+}
+
+div.tooltip {
+  position: absolute;
+  padding: 8px;                
+  font: 14px Arial; 
+  color: white;  
+  background: #88bef7;
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
+  border: 0px;        
+  border-radius: 2px;            
+  pointer-events: none;            
+}
+
+path:hover{
+	fill: #e6ffff;
+}
+
+#source {
+  align-self: flex-end;
+  margin-top: 1rem;
+}
