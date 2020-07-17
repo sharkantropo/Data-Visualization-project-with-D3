@@ -49,7 +49,7 @@ div.tooltip {
   pointer-events: none;            
 }
 
-path:hover{
+path.county:hover{
 	fill: #e6ffff;
 }
 
