@@ -9,6 +9,12 @@ body {
   font-family: 'Arial';
 }
 
+#tree-box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
 #title {
   font-size: 2.8rem;
@@ -17,24 +23,10 @@ body {
 
 #description {
   text-align: center;
-  text-decoration-line: underline overline;
 }
 
 svg{
-	padding-top: 45px;
-}
-.counties {
-  fill: none;
-}
-
-.states {
-  fill: none;
-  stroke: #fff;
-  stroke-linejoin: round;
-}
-
-a {
-  text-decoration: none;
+	padding-top: 10px;
 }
 
 div.tooltip {
@@ -42,18 +34,13 @@ div.tooltip {
   padding: 8px;                
   font: 14px Arial; 
   color: white;  
-  background: #88bef7;
   box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
   border: 0px;        
   border-radius: 2px;            
   pointer-events: none;            
 }
 
-path.county:hover{
-	fill: #e6ffff;
-}
-
-#source {
-  align-self: flex-end;
-  margin-top: 1rem;
+.tile-text{
+	font-size: 0.6rem;
+	overflow:hidden;
 }
