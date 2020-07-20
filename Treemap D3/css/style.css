@@ -1,0 +1,46 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Arial';
+}
+
+#tree-box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#title {
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+}
+
+svg{
+	padding-top: 10px;
+}
+
+div.tooltip {
+  position: absolute;
+  padding: 8px;                
+  font: 14px Arial; 
+  color: white;  
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
+  border: 0px;        
+  border-radius: 2px;            
+  pointer-events: none;            
+}
+
+.tile-text{
+	font-size: 0.6rem;
+	overflow:hidden;
+}
